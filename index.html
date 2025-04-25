@@ -53,17 +53,25 @@
         <td>48748</td>
       </tr>
   </table>
-  <form autocomplete="on">
+  <form autocomplete="on" method="post" action="#">
       <div>
-        <label> First name <input type="text" name="first name"></label>
-        <label> Last name <input type="text" name="Last name"></label>
-        <label> Email <input type="text" name="email"></label>
-        <label> password<input type="password" name="password"></label>
+        <label> First name <input type="text" name="first name" value="first name"></label>
+        <label> Last name <input type="text" name="Last name" value="last name"></label>
+        <label> Email <input type="text" name="email" value="email"></label>
+        <label> password<input type="password" name="password" value="password"></label>
       </div>
      <select name="menu field" label="Gender">
         <option value="M">Male</option>
         <option value="F">Female</option>
      </select>
+     <div>
+        <optgroup label=" best colour">
+          <label> blue <input type="checkbox" name="first name"></label>
+          <label> green <input type="checkbox" name="Last name"></label>
+          <label> Red <input type="checkbox" name="email"></label>
+          <label> Yellow <input type="checkbox" name="password"></label>
+        </optgroup>
+     </div>
   </form>
 	</footer>
   </body>

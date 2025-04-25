@@ -54,6 +54,7 @@
       </tr>
   </table>
   <form autocomplete="on" method="post" action="#">
+    <div>
       <div>
         <label> First name <input type="text" name="first name" value="first name"></label>
       </div>
@@ -61,7 +62,7 @@
         <label> Last name <input type="text" name="Last name" value="last name"></label>
       </div>
       <div>
-        <label> Email <input type="text" name="email" value="email"></label>
+        <label> Email <input type="text" name="email_field" value="email"></label>
       </div>
       <div>
         <label> password<input type="password" name="password"></label>
@@ -76,17 +77,19 @@
           <label> Red <input type="checkbox" name="email"></label>
           <label> Yellow <input type="checkbox" name="password"></label>
      </div>
+     <div> 
+        <label><input type="textarea" name="textarea_field">comment</label>
+     </div>
      <div>
-        <option>
            <label> blue <input type="radio" name="checkbox_field" value="blue"></label>
-          <label> green <input type="radio" name="Last name"></label>
+          <label> green <input type="radio" name="Last name" checked="checked"></label>
           <label> Red <input type="radio" name="email"></label>
           <label> Yellow <input type="radio" name="password"></label>
-        </option>
      </div>
      <div>
         <input type="submit" value="Sign Up Now"> 
      </div>
+    </div>
   </form>
 	</footer>
   </body>

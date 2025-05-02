@@ -12,5 +12,6 @@ table{
 form{
       background-color:green;
       text-align:center;
-      width: 50px
+      width: 50px;
+      margin:30px;
 }

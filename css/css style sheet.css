@@ -11,7 +11,7 @@ table{
 }
 form{
       background-color:green;
-      text-align:center;
+      align-content: center;
       width: 50px;
-      margin:30px;
+      margin:50px;
 }

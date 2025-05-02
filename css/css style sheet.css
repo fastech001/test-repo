@@ -1,11 +1,24 @@
 h1 {
-    color: red;
-    background-color: blue;
-    text-align: center;
-    }
+      color: red;
+      background-color: orange;
+      text-align: center;
+}
 body{
-      background-color: blue;
+      background-color: light-blue;
       font-weight: bold;
       font-family: arial;
-    }
+}
+ul{
+      color: red;
+      background-color:black;
+}
+table{
+       background-color: red;
+}
+form{
+       background-color:green;
+}
+footer{
+        background-color: black;
+}
     

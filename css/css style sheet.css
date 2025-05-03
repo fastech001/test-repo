@@ -10,5 +10,16 @@ table{
       background-color:red;
 }
 form{
-      background-color:green;
+      background-color:green; 
+      border: yellow, solid, 10px;
+      margin-top: 10px;
+      text-align:center-left;
+      padding: 30px 100px 10px 320px;
+      
+}
+body{
+      background-color: lightblue;
+}
+#box {
+      text-align: center;
 }

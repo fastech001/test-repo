@@ -1,0 +1,7 @@
+#box {
+  box-sizing: border box;
+  border:solid, red  10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  
+}

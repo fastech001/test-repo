@@ -1,6 +1,6 @@
 h1 {
       color: red;
-      background-color:orange;
+      background-color:none;
       text-align:center;
 }
  ul{
@@ -22,4 +22,15 @@ body{
 }
 #box {
       text-align: center;
+}
+#navcontainer{
+  float:right;
+}
+nav, ul li, a{
+  background-color: green;
+  text-align:centre;
+  display:inline-block;
+}
+header{
+  background-color:dark-blue;
 }
